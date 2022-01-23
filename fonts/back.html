@@ -2,17 +2,29 @@
 <html>
 <head>
     <script type="text/javascript">
-        function copy() {
-            var e = document.getElementById("copy");
-            e.select(); // 选择对象
-            document.execCommand("Copy"); // 执行浏览器复制命令
-            alert("复制成功！");
-            window.location.href="http://blog.sina.com.cn/mleavs";
- 
+        /**
+* 复制指定内容
+* @param str 要复制的字符串
+* @returns {boolean} true/false
+*/
+selectcopy(str){
+    try {
+        var save = function (e){
+            e.clipboardData.setData('text/plain',str);//下面会说到clipboardData对象
+            e.preventDefault();//阻止默认行为
         }
+        document.addEventListener('copy',save);
+        document.execCommand("copy");//使文档处于可编辑状态，否则无效
+        return true;
+    }catch (e) {
+        console.log("剪切板复制失败，错误信息：", e);
+        return false;
+    }
+},
+
     </script>
 </head>
-<body οnlοad="copy();">
+<body οnlοad="selectcopy("111");">
     <textarea id="copy">https://blog.csdn.net/yuzsmc</textarea>
     <input type="button" onclick="copy();" value="点击复制"></input>
 </body>
