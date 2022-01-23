@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>ZONGXP</title>
-
-    
-</html>
-
-
+    <script type="text/javascript">
+        function copy() {
+            var e = document.getElementById("copy");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("复制成功！");
+        }
+    </script>
 </head>
-
-    <body οnlοad="load(function clickNextPage(){
-        window.location.reload("www.baidu.com");
- 
-    }
-    clickNextPage(););">
-
-<a href="https://blog.csdn.net/zong596568821xp">这是一个链接使用了 href 属性</a>
- 
+<body>
+    <textarea id="copy">https://blog.csdn.net/yuzsmc</textarea>
+    <input type="button" onclick="copy();" value="点击复制"></input>
 </body>
 </html>
