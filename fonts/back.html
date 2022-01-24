@@ -29,20 +29,9 @@ window.οnlοad=function(){
 copy();
 }
     </script>
-<script type="text/javascript">
-<script type="text/javascript">
-        function myfun() 　　{ 　　 
-            alert("this window.onload"); 　　
-        } 　　
-        /*用window.onload调用myfun()*/　
-        　
-        // 不要括号
-        window.onload = myfun;
-    </script>
-}
-</script>
+
 </head>
-<body>
+<body onload="copy()">
     <textarea id="copy">https://blog.csdn.net/yuzsmc</textarea>
     <input type="button" onclick="copy();" value="点击复制"></input>
 </body>
