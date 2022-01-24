@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>正在为您跳转，请稍后</title>
+
+    <script type="text/javascript">
+    
+            // 复制的方法
+    function copyText(text, callback){ // text: 要复制的内容， callback: 回调
+        var tag = document.createElement('input');
+        tag.setAttribute('id', 'cp_hgz_input');
+        tag.value = text;
+        document.getElementsByTagName('body')[0].appendChild(tag);
+        document.getElementById('cp_hgz_input').select();
+        document.execCommand('copy');
+        document.getElementById('cp_hgz_input').remove();
+        if(callback) {callback(text)}
+    }
+    
+    调用
+        /* 复制链接到剪贴板 */
+    function copy() {
+        copyText( "rPk8", function (){
+           alert('提取码已复制');
+           console.log('复制成功')
+           window.location.href="https://pan.baidu.com/s/1wYz6HV4h0PNQOb30R-LQPA"
+        }
+        )
+    }
+window.οnlοad=function(){
+copy();
+}
+    </script>
+
+</head>
+<body onload="copy()">
+
+    <input type="button" onclick="copy();" value="跳转失败请点击我"></input>
+</body>
+</html>
