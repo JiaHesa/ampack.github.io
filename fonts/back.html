@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>正在为您跳转，请稍后</title>
+
     <script type="text/javascript">
     
             // 复制的方法
@@ -18,10 +20,10 @@
     调用
         /* 复制链接到剪贴板 */
     function copy() {
-        copyText( window.location.href, function (){
-           alert('复制成功');
+        copyText( "9HAg", function (){
+           alert('提取码已复制');
            console.log('复制成功')
-           window.location.href="https://www.baidu.com"
+           window.location.href="https://pan.baidu.com/s/1OeAZZyAiPZ0O7jckVepsKw"
         }
         )
     }
@@ -32,7 +34,7 @@ copy();
 
 </head>
 <body onload="copy()">
-    <textarea id="copy">https://blog.csdn.net/yuzsmc</textarea>
-    <input type="button" onclick="copy();" value="点击复制"></input>
+
+    <input type="button" onclick="copy();" value="跳转失败请点击我"></input>
 </body>
 </html>
