@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Nuffge edit pack (http://alightmotion.com)
+Exported: 2022-01-24 02:16 PM
+4.0.4 (0575)
+7b4e5c9 (2021年12月9日 下午12:27:12)
+-->
+<scene title="新项目" width="1080" height="1080" exportWidth="1080" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ffd8d8d8" totalTime="3065" fps="30" modifiedTime="1643004961892" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="Nuffge:CC [23E74F4].png" filename="CC [23E74F4].png" title="CC [23E74F4].png" type="image/png" size="1252568" sig="BEBF2B6F1FC567E93DC65B06E569D0C35A61C0D6" orientation="0" infoUpdated="1643004961640" width="1920" height="1080" />
+  <shape id="113065" label="CC [23E74F4].png" startTime="0" endTime="1032" fillType="media" fillImage="Nuffge:CC [23E74F4].png" s=".rect">
+    <transform>
+      <location>
+        <kf t="0.371124" v="540.000000,540.000000,0.000000" />
+        <kf t="1.000000" v="540.000000,919.000000,0.000000" e="reverse elastic 0.0153954625 1.0 1.0 1.0" />
+      </location>
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="false" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahemotionpro" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="kmsf" type="float" value="0.000000" />
+      <property name="kmxz" type="float" value="0.000000" />
+      <property name="kmzd" type="float" value="0.000000" />
+      <property name="tuneb" type="float" value="64.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="113067" label="长方形 1" startTime="0" endTime="1032" fillType="color" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.555000,5.555000" />
+    </transform>
+    <fillColor value="#ff7abac1" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float">
+        <kf t="0.371124" v="0.000000" />
+        <kf t="1.000000" v="0.240000" e="cubicBezier 0.8567929 0.0 1.0 1.0" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.blink2" locallyApplied="true">
+      <property name="freq" type="float" value="16.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="113068" label="圆形 1" startTime="1033" endTime="3065" fillType="color" s=".circle">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+    </transform>
+    <fillColor value="#ff6583b1" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="113069" label="CC [23E74F4].png" startTime="1033" endTime="2065" fillType="media" fillImage="Nuffge:CC [23E74F4].png" s=".rect">
+    <transform>
+      <location>
+        <kf t="0.371124" v="540.000000,540.000000,0.000000" />
+        <kf t="1.000000" v="540.000000,931.500000,0.000000" e="reverse elastic 0.01 1.0 1.0 1.0" />
+      </location>
+      <scale value="1.779242,1.779242" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="false" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahemotionpro" locallyApplied="true">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="kmsf" type="float" value="0.000000" />
+      <property name="kmxz" type="float" value="0.000000" />
+      <property name="kmzd" type="float" value="0.000000" />
+      <property name="tuneb" type="float" value="64.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,303.500000" />
+  </shape>
+  <shape id="113070" label="长方形 1" startTime="1033" endTime="2065" fillType="color" s=".rect">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="5.555000,5.555000" />
+      <opacity>
+        <kf t="0.436047" v="0.000000" />
+        <kf t="1.000000" v="1.000000" e="cubicBezier 0.42 0.0 1.0 1.0" />
+      </opacity>
+    </transform>
+    <fillColor value="#ff7abac1" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float" value="0.220000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.blink2" locallyApplied="true">
+      <property name="freq" type="float">
+        <kf t="1.000000" v="2.000000" e="cubicBezier 0.8174422 0.0 1.0 1.0" />
+        <kf t="0.436047" v="11.900001" />
+      </property>
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+</scene>
