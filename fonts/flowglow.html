@@ -2,10 +2,10 @@
 <html>
 <head>
 <title>正在为您跳转，请稍后</title>
-
-    <script type="text/javascript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script  type="text/javascript">
     
-            // 复制的方法
+              // 复制的方法
     function copyText(text, callback){ // text: 要复制的内容， callback: 回调
         var tag = document.createElement('input');
         tag.setAttribute('id', 'cp_hgz_input');
@@ -21,20 +21,19 @@
         /* 复制链接到剪贴板 */
     function copy() {
         copyText( "rPk8", function (){
-           alert('提取码已复制');
+           alert('提取码已复制！');
            console.log('复制成功')
-           window.location.href="https://pan.baidu.com/s/1wYz6HV4h0PNQOb30R-LQPA"
         }
         )
+        window.location.href="https://pan.baidu.com/s/1wYz6HV4h0PNQOb30R-LQPA"
     }
-window.οnlοad=function(){
-copy();
-}
+
     </script>
 
 </head>
-<body onload="copy()">
+<body>
 
-    <input type="button" onclick="copy();" value="跳转失败请点击我"></input>
+    <input type="button" onclick="copy();" value="点击继续"></input>
 </body>
+
 </html>
