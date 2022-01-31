@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Nuffge edit pack (http://alightmotion.com)
+Exported: 2022-01-30 06:08 PM
+4.0.4 (0575)
+7b4e5c9 (2021年12月9日 下午12:27:12)
+-->
+<scene title="特效转场" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ffd8d8d8" totalTime="24333" fps="30" modifiedTime="1643537282800" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://media/external/images/media/11274" filename="-235e46c9d0d4e04a.png" title="-235e46c9d0d4e04a.png" type="image/png" size="3773842" orientation="0" infoUpdated="1643537279015" width="1920" height="1080" />
+  <bookmark t="20983" />
+  <shape id="99" label="缩放1-1" startTime="0" endTime="2032" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+      <rotation>
+        <kf t="0.401575" v="0.000000" />
+      </rotation>
+    </transform>
+    <effect id="com.alightcreative.effects.jiahegxbc" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+      <property name="fill2" type="float">
+        <kf t="0.565945" v="0.000000" />
+        <kf t="1.000000" v="-3.852000" e="cubicBezier 0.5187887 0.0 1.0 0.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.549213" v="0.000000" />
+        <kf t="1.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="false" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.JiaHebh2" locallyApplied="true">
+      <property name="xc" type="float">
+        <kf t="0.500000" v="0.000000" />
+        <kf t="1.000000" v="21.000000" e="cubicBezier 0.607206 0.0 1.0 0.0" />
+      </property>
+      <property name="sf" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="98" label="缩放1-2" startTime="2000" endTime="4032" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.jiahegxbc" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+      <property name="fill2" type="float">
+        <kf t="0.000000" v="-3.795000" e="cubicBezier 0.61251104 0.0 1.0 0.10894358" />
+        <kf t="0.565945" v="0.000000" e="cubicBezier 0.0 0.9054622 0.38395226 0.94087636" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.JiaHebh2" locallyApplied="true">
+      <property name="xc" type="float">
+        <kf t="0.000000" v="-22.500000" />
+        <kf t="0.532972" v="0.000000" e="cubicBezier 0.0 0.5993397 0.34151193 1.0" />
+      </property>
+      <property name="sf" type="float">
+        <kf t="0.000000" v="22.500000" />
+        <kf t="0.532972" v="0.000000" e="cubicBezier 0.0 0.81182474 0.4352343 0.98409367" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+        <kf t="0.549213" v="0.000000" e="cubicBezier 0.0 0.74339736 0.32206014 1.0" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="false" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="94" label="缩放2-1" startTime="4000" endTime="6032" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+      <rotation>
+        <kf t="0.401575" v="0.000000" />
+      </rotation>
+    </transform>
+    <effect id="com.alightcreative.effects.jiahegxbc" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+      <property name="fill2" type="float">
+        <kf t="0.565945" v="0.000000" />
+        <kf t="1.000000" v="-3.852000" e="cubicBezier 0.5187887 0.0 1.0 0.0" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.549213" v="0.000000" />
+        <kf t="1.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.JiaHebh2" locallyApplied="true">
+      <property name="xc" type="float">
+        <kf t="0.500000" v="0.000000" />
+        <kf t="1.000000" v="21.000000" e="cubicBezier 0.607206 0.0 1.0 0.0" />
+      </property>
+      <property name="sf" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="95" label="缩放2-2" startTime="6033" endTime="8065" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.jiahegxbc" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+      <property name="fill2" type="float">
+        <kf t="0.000000" v="-3.795000" e="cubicBezier 0.61251104 0.0 1.0 0.10894358" />
+        <kf t="0.565945" v="0.000000" e="cubicBezier 0.0 0.9054622 0.38395226 0.94087636" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.JiaHebh2" locallyApplied="true">
+      <property name="xc" type="float">
+        <kf t="0.000000" v="-22.500000" />
+        <kf t="0.532972" v="0.000000" e="cubicBezier 0.0 0.5993397 0.34151193 1.0" />
+      </property>
+      <property name="sf" type="float">
+        <kf t="0.000000" v="22.500000" />
+        <kf t="0.532972" v="0.000000" e="cubicBezier 0.0 0.81182474 0.4352343 0.98409367" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+        <kf t="0.549213" v="0.000000" e="cubicBezier 0.0 0.74339736 0.32206014 1.0" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="96" label="缩放3-1" startTime="8066" endTime="10099" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float">
+        <kf t="0.582391" v="1.000000" />
+        <kf t="0.992130" v="1.340000" e="cubicBezier 0.61 0.0 1.0 0.0" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahebx" locallyApplied="true">
+      <property name="fill" type="float">
+        <kf t="0.582391" v="0.000000" />
+        <kf t="1.000000" v="-2.370000" e="cubicBezier 0.60543764 0.0 1.0 0.0" />
+      </property>
+      <property name="fill2" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.zoomblur3" locallyApplied="true">
+      <property name="centerPoint" type="vec2">
+        <kf t="0.582391" v="0.000000,0.000000" />
+        <kf t="0.992130" v="0.000000,0.000000" />
+      </property>
+      <property name="strength" type="float">
+        <kf t="0.582391" v="0.000000" />
+        <kf t="0.992130" v="0.520000" e="cubicBezier 0.7301061 0.0 1.0 0.0" />
+      </property>
+      <property name="adaptive" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.549213" v="0.000000" />
+        <kf t="1.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="false" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="97" label="缩放3-2" startTime="10100" endTime="12133" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.jiahegxbc" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+      <property name="fill2" type="float">
+        <kf t="0.008362" v="-4.436000" />
+        <kf t="0.582391" v="0.000000" e="cubicBezier 0.10433245 0.55972385 0.31321838 0.8451381" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float">
+        <kf t="0.000000" v="1.825000" />
+        <kf t="0.582391" v="1.000000" e="cubicBezier 0.0 0.8370348 0.21684352 1.0" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.zoomblur3" locallyApplied="true">
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.360000" />
+        <kf t="0.516478" v="0.000000" e="cubicBezier 0.0 0.6338621 0.25839967 0.9819928" />
+      </property>
+      <property name="adaptive" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+        <kf t="0.549213" v="0.000000" e="cubicBezier 0.0 0.74339736 0.32206014 1.0" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="false" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="102" label="缩放4-1" startTime="12133" endTime="14166" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float">
+        <kf t="0.582391" v="1.000000" />
+        <kf t="0.992130" v="1.340000" e="cubicBezier 0.61 0.0 1.0 0.0" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahebx" locallyApplied="true">
+      <property name="fill" type="float">
+        <kf t="0.582391" v="0.000000" />
+        <kf t="1.000000" v="-2.370000" e="cubicBezier 0.60543764 0.0 1.0 0.0" />
+      </property>
+      <property name="fill2" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.zoomblur3" locallyApplied="true">
+      <property name="centerPoint" type="vec2">
+        <kf t="0.582391" v="0.000000,0.000000" />
+        <kf t="0.992130" v="0.000000,0.000000" />
+      </property>
+      <property name="strength" type="float">
+        <kf t="0.582391" v="0.000000" />
+        <kf t="0.992130" v="0.520000" e="cubicBezier 0.7301061 0.0 1.0 0.0" />
+      </property>
+      <property name="adaptive" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.549213" v="0.000000" />
+        <kf t="1.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="101" label="缩放4-2" startTime="14166" endTime="16199" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.jiahegxbc" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+      <property name="fill2" type="float">
+        <kf t="0.008362" v="-4.436000" />
+        <kf t="0.582391" v="0.000000" e="cubicBezier 0.10433245 0.55972385 0.31321838 0.8451381" />
+      </property>
+    </effect>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float">
+        <kf t="0.000000" v="1.825000" />
+        <kf t="0.582391" v="1.000000" e="cubicBezier 0.0 0.8370348 0.21684352 1.0" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.zoomblur3" locallyApplied="true">
+      <property name="strength" type="float">
+        <kf t="0.000000" v="0.360000" />
+        <kf t="0.516478" v="0.000000" e="cubicBezier 0.0 0.6338621 0.25839967 0.9819928" />
+      </property>
+      <property name="adaptive" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+        <kf t="0.549213" v="0.000000" e="cubicBezier 0.0 0.74339736 0.32206014 1.0" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="103" label="湍流缩放1-1" startTime="16200" endTime="18233" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float">
+        <kf t="0.582391" v="1.000000" />
+        <kf t="0.992130" v="1.385000" e="cubicBezier 0.49049515 0.0 1.0 0.08733493" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.549213" v="0.000000" />
+        <kf t="1.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahewarppro" locallyApplied="true">
+      <property name="intensity2" type="float">
+        <kf t="0.548942" v="0.000000" />
+        <kf t="1.000000" v="0.168000" e="cubicBezier 0.50641024 0.0 0.99469495 0.24489796" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.991638" v="0.000000" />
+        <kf t="0.581899" v="0.650000" />
+      </property>
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="stretch" type="vec2" value="1.000000,1.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="singleAxis" type="bool" value="true" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="104" label="湍流缩放1-2" startTime="18233" endTime="20266" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahewarppro" locallyApplied="true">
+      <property name="intensity2" type="float">
+        <kf t="0.548942" v="0.000000" e="cubicBezier 0.0 0.7361945 0.28669322 0.9855942" />
+        <kf t="0.000000" v="0.233000" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="0.581899" v="1.730000" />
+      </property>
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float" value="1.000000" />
+      <property name="stretch" type="vec2" value="1.000000,1.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="singleAxis" type="bool" value="true" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+        <kf t="0.549213" v="0.000000" e="cubicBezier 0.0 0.74339736 0.32206014 1.0" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.JiaHebh2" locallyApplied="true">
+      <property name="xc" type="float" value="0.000000" />
+      <property name="sf" type="float">
+        <kf t="0.000000" v="-45.500000" />
+        <kf t="0.631087" v="0.000000" e="cubicBezier 0.03536693 0.7082833 0.10985851 1.0" />
+      </property>
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="105" label="边角缩放1-1" startTime="20266" endTime="22299" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahebx" locallyApplied="true">
+      <property name="zd" type="vec2" value="-625.000000,558.000000" />
+      <property name="fill" type="float">
+        <kf t="0.565666" v="0.010000" />
+        <kf t="1.000000" v="-0.630000" e="cubicBezier 0.53293544 0.0 1.0 0.072929144" />
+      </property>
+      <property name="fill2" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.zoomblur3" locallyApplied="true">
+      <property name="centerPoint" type="vec2" value="-170.823120,146.000000" />
+      <property name="strength" type="float">
+        <kf t="0.565666" v="0.000000" />
+        <kf t="0.992130" v="0.390000" e="cubicBezier 0.58598584 0.0 1.0 0.0" />
+      </property>
+      <property name="adaptive" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.549213" v="0.000000" />
+        <kf t="1.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="106" label="边角缩放1-2 " startTime="22300" endTime="24333" fillType="media" fillImage="content://media/external/images/media/11274" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahebx" locallyApplied="true">
+      <property name="zd" type="vec2" value="749.000061,265.000000" />
+      <property name="fill" type="float">
+        <kf t="0.000000" v="-0.630000" e="cubicBezier 0.43390805 0.05042017 1.0 0.072929144" />
+        <kf t="0.565666" v="0.010000" e="cubicBezier 0.0 0.707383 0.346817 0.98409367" />
+      </property>
+      <property name="fill2" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.zoomblur3" locallyApplied="true">
+      <property name="centerPoint" type="vec2" value="-170.823120,146.000000" />
+      <property name="strength" type="float">
+        <kf t="0.565666" v="0.000000" />
+        <kf t="0.992130" v="0.390000" e="cubicBezier 0.58598584 0.0 1.0 0.0" />
+      </property>
+      <property name="adaptive" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.jiahedoudong" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="79.000000" e="cubicBezier 0.5789125 0.0 1.0 0.02611041" />
+        <kf t="0.549213" v="0.000000" e="cubicBezier 0.0 0.74339736 0.32206014 1.0" />
+      </property>
+      <property name="evolution" type="float" value="4.000000" />
+      <property name="doudong" type="bool" value="true" />
+      <property name="suofang" type="bool" value="false" />
+      <property name="baogua" type="bool" value="true" />
+      <property name="jiahergb" type="bool" value="true" />
+      <property name="blur" type="bool" value="true" />
+      <property name="scatter" type="float" value="0.820000" />
+      <property name="sfdx" type="float" value="0.500000" />
+      <property name="bgqd" type="float" value="500.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+      <property name="tune2" type="float" value="1.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+      <property name="tune" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+</scene>
