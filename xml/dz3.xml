@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Nuffge edit pack (http://alightmotion.com)
+Exported: 2022-01-31 01:45 PM
+4.0.4 (0575)
+7b4e5c9 (2021年12月9日 下午12:27:12)
+-->
+<scene title="单帧3" width="1080" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="1999" fps="30" modifiedTime="1643607901693" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="am:2F4B37B56D5F14924452786ADBD530BA1A8CF123.png" filename="2F4B37B56D5F14924452786ADBD530BA1A8CF123.PNG" title="" type="image/png" size="5603" sig="2F4B37B56D5F14924452786ADBD530BA1A8CF123" infoUpdated="1643606669490" />
+  <media uri="am:3966903939CB94988561B42FDE724A271BD56DBA.jpg" filename="3966903939CB94988561B42FDE724A271BD56DBA.JPG" title="" type="image/jpeg" size="42580" sig="3966903939CB94988561B42FDE724A271BD56DBA" infoUpdated="1643606703286" />
+  <media uri="am:B6CA1157343B22D66FF59AC10E68A49B700ECD2C.png" filename="B6CA1157343B22D66FF59AC10E68A49B700ECD2C.PNG" title="" type="image/png" size="93685" sig="B6CA1157343B22D66FF59AC10E68A49B700ECD2C" infoUpdated="1643606703286" />
+  <media uri="am:716B611E55FDBE1705828E1ACC206BE738ABFEEC.png" filename="716B611E55FDBE1705828E1ACC206BE738ABFEEC.PNG" title="" type="image/png" size="15452" sig="716B611E55FDBE1705828E1ACC206BE738ABFEEC" infoUpdated="1643606669490" />
+  <media uri="am:0FB99165E13B2A0961A61D4D71FCFB4D025E71DD.jpg" filename="0FB99165E13B2A0961A61D4D71FCFB4D025E71DD.JPG" title="" type="image/jpeg" size="3858467" sig="0FB99165E13B2A0961A61D4D71FCFB4D025E71DD" infoUpdated="1643606669490" />
+  <media uri="am:489A23125673148914A599C30447FAEADCF10B58.jpg" filename="489A23125673148914A599C30447FAEADCF10B58.JPG" title="" type="image/jpeg" size="69127" sig="489A23125673148914A599C30447FAEADCF10B58" infoUpdated="1643606669490" />
+  <media uri="am:18647CBDF9F003728E632C274C9E2BDC37E31BCA.jpg" filename="18647CBDF9F003728E632C274C9E2BDC37E31BCA.JPG" title="" type="image/jpeg" size="126529" sig="18647CBDF9F003728E632C274C9E2BDC37E31BCA" infoUpdated="1643607740602" />
+  <media uri="am:FCCDA78BC35517610A8E045199F6100B66A8D5EF.jpg" filename="FCCDA78BC35517610A8E045199F6100B66A8D5EF.JPG" title="" type="image/jpeg" size="43725" sig="FCCDA78BC35517610A8E045199F6100B66A8D5EF" infoUpdated="1643606669490" />
+  <media uri="am:5C5518A0B14317715EB047C8FC2FD6DC1251BEC1.jpg" filename="5C5518A0B14317715EB047C8FC2FD6DC1251BEC1.JPG" title="" type="image/jpeg" size="14099230" sig="5C5518A0B14317715EB047C8FC2FD6DC1251BEC1" infoUpdated="1643606669490" />
+  <bookmark t="0" />
+  <bookmark t="167" />
+  <embedScene id="6" label="编组和蒙版 1" startTime="0" endTime="1999" fillType="intrinsic">
+    <transform>
+      <location value="447.906921,468.585815,0.000000" />
+      <pivot value="167.441833,17.790833" />
+      <scale value="1.508768,1.508768" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <effect id="com.alightcreative.effects.satvib" locallyApplied="false">
+      <property name="saturation" type="float" value="-0.295000" />
+      <property name="vib" type="float" value="1.000000" />
+    </effect>
+    <scene title="" width="1082" height="1082" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1999" fps="30" modifiedTime="1592640187992" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="1" startTime="0" endTime="1999" fillType="media" fillImage="am:FCCDA78BC35517610A8E045199F6100B66A8D5EF.jpg">
+        <transform>
+          <location value="705.872803,567.731323,0.000000" />
+          <scale value="0.778280,0.778280" />
+        </transform>
+        <path d="M -360.0 -540.0L 360.0 -540.0L 360.0 540.0L -360.0 540.0L -360.0 -540.0Z" />
+      </shape>
+      <shape id="24" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:5C5518A0B14317715EB047C8FC2FD6DC1251BEC1.jpg">
+        <transform>
+          <location value="443.494415,552.533142,0.000000" />
+          <scale value="1.650249,1.650249" />
+          <opacity value="0.647513" />
+        </transform>
+        <path d="M -541.0 -360.66666L 541.0 -360.66666L 541.0 360.66666L -541.0 360.66666L -541.0 -360.66666Z" />
+      </shape>
+      <shape id="5" label="长方形 2" startTime="0" endTime="1999" fillType="color" blending="mask" s=".rect">
+        <transform>
+          <location value="707.441895,614.064758,0.000000" />
+        </transform>
+        <fillColor value="#ff47b0e1" />
+        <property name="size" type="vec2" value="209.345032,287.267334" />
+      </shape>
+    </scene>
+  </embedScene>
+  <shape id="50" label="长方形 2" hidden="true" startTime="0" endTime="1999" fillType="color" s=".rect">
+    <transform>
+      <location value="616.144165,124.810677,0.000000" />
+      <scale value="0.536865,0.536865" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <property name="size" type="vec2" value="589.106323,76.608345" />
+  </shape>
+  <text id="21" label='YES, "ROGUE.". THIS WORD REMINDS PEOPLE OF "WANDERER" IN BAUDELAIRE&apos;S WORKS AND "WANDERER" IN BENJAMIN&apos;S WORKS. BUT NIKO, THE HERO HERE, IS NOT A BOHEMIAN VAGRANT, LET ALONE A "SCHOLAR" IN HOMME DE LETTRE ' startTime="0" endTime="1999" fillType="color" blending="diff" size="18.000000" font="googlefonts?name=Archivo Black&amp;weight=400" wrapWidth="1890" align="left">
+    <transform>
+      <location value="1003.538635,248.767410,0.000000" />
+      <scale value="0.122544,0.122544" />
+      <rotation value="90.000000" />
+      <opacity value="0.863870" />
+    </transform>
+    <fillColor>
+      <kf t="0.017009" v="#fff9f9f9" />
+    </fillColor>
+    <content>YES, "ROGUE.". THIS WORD REMINDS PEOPLE OF "WANDERER" IN BAUDELAIRE'S WORKS AND "WANDERER" IN BENJAMIN'S WORKS. BUT NIKO, THE HERO HERE, IS NOT A BOHEMIAN VAGRANT, LET ALONE A "SCHOLAR" IN HOMME DE LETTRE </content>
+  </text>
+  <text id="51" label='YES, "ROGUE.". THIS WORD REMINDS PEOPLE OF "WANDERER" IN BAUDELAIRE&apos;S WORKS AND "WANDERER" IN BENJAMIN&apos;S WORKS. BUT NIKO, THE HERO HERE, IS NOT A BOHEMIAN VAGRANT, LET ALONE A "SCHOLAR" IN HOMME DE LETTRE WRITTEN BY BENJAMIN. SO WHAT IS NIKO&apos;S IDENTITY?' hidden="true" startTime="0" endTime="1999" fillType="color" blending="diff" size="18.000000" font="googlefonts?name=Archivo Black&amp;weight=400" wrapWidth="1944" align="right">
+    <transform>
+      <location value="864.547241,98.372238,0.000000" />
+      <scale value="0.194721,0.194721" />
+      <opacity value="0.863870" />
+    </transform>
+    <fillColor>
+      <kf t="0.017009" v="#fff9f9f9" />
+    </fillColor>
+    <content>YES, "ROGUE.". THIS WORD REMINDS PEOPLE OF "WANDERER" IN BAUDELAIRE'S WORKS AND "WANDERER" IN BENJAMIN'S WORKS. BUT NIKO, THE HERO HERE, IS NOT A BOHEMIAN VAGRANT, LET ALONE A "SCHOLAR" IN HOMME DE LETTRE WRITTEN BY BENJAMIN. SO WHAT IS NIKO'S IDENTITY?</content>
+  </text>
+  <text id="10" label="游荡者" startTime="0" endTime="1999" fillType="color" size="18.000000" font="googlefonts?name=Montserrat&amp;weight=700" wrapWidth="540" align="center">
+    <transform>
+      <location value="644.016052,561.887695,0.000000" />
+      <scale value="2.132180,2.132180" />
+      <skew value="-0.183260,0.000000" />
+    </transform>
+    <fillColor value="#ff262525" />
+    <effect id="com.alightcreative.effects.textspacing" locallyApplied="false">
+      <property name="letterspacing" type="float" value="1.260000" />
+      <property name="linespacing" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.wipe" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="end" type="float" value="52.400002" />
+      <property name="feather" type="float" value="45.100002" />
+      <property name="start" type="float" value="0.000000" />
+    </effect>
+    <path-stroke direction="centered" cap="square" join="miter" end-size="1.500000">
+      <color value="#ff222222" />
+    </path-stroke>
+    <content>游荡者</content>
+  </text>
+  <text id="59" label="游荡者" hidden="true" startTime="0" endTime="1999" fillType="color" size="18.000000" font="googlefonts?name=Montserrat&amp;weight=700" wrapWidth="540" align="center">
+    <transform>
+      <location value="658.333801,481.860138,0.000000" />
+      <scale value="2.132180,2.132180" />
+      <skew value="-0.183260,0.000000" />
+    </transform>
+    <fillColor value="#007f7f7f" />
+    <effect id="com.alightcreative.effects.textspacing" locallyApplied="false">
+      <property name="letterspacing" type="float" value="1.260000" />
+      <property name="linespacing" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.wipe" hidden="true" locallyApplied="false">
+      <property name="angle" type="float" value="90.000000" />
+      <property name="end" type="float" value="52.400002" />
+      <property name="feather" type="float" value="45.100002" />
+      <property name="start" type="float" value="0.000000" />
+    </effect>
+    <path-stroke direction="centered" cap="square" join="miter" end-size="1.500000">
+      <color value="#ff373232" />
+      <size value="2.000000" />
+    </path-stroke>
+    <content>游荡者</content>
+  </text>
+  <text id="12" label='YES, "ROGUE.". THIS WORD REMINDS PEOPLE OF "WANDERER" IN BAUDELAIRE&apos;S WORKS AND "WANDERER" IN BENJAMIN&apos;S WORKS. BUT NIKO, THE HERO HERE, IS NOT A BOHEMIAN VAGRANT, LET ALONE A "SCHOLAR" IN HOMME DE LETTRE WRITTEN BY BENJAMIN. SO WHAT IS NIKO&apos;S IDENTITY?' startTime="0" endTime="1999" fillType="color" blending="diff" size="18.000000" font="googlefonts?name=Archivo Black&amp;weight=400" wrapWidth="1544" align="right">
+    <transform>
+      <location value="263.025635,332.821655,0.000000" />
+      <scale value="0.170337,0.170337" />
+    </transform>
+    <fillColor>
+      <kf t="0.017009" v="#fff9f9f9" />
+    </fillColor>
+    <content>YES, "ROGUE.". THIS WORD REMINDS PEOPLE OF "WANDERER" IN BAUDELAIRE'S WORKS AND "WANDERER" IN BENJAMIN'S WORKS. BUT NIKO, THE HERO HERE, IS NOT A BOHEMIAN VAGRANT, LET ALONE A "SCHOLAR" IN HOMME DE LETTRE WRITTEN BY BENJAMIN. SO WHAT IS NIKO'S IDENTITY?</content>
+  </text>
+  <text id="16" label="WANDET" startTime="0" endTime="1999" fillType="color" blending="diff" size="18.000000" font="imported?name=N019086D.TTF" wrapWidth="1594" align="center">
+    <transform>
+      <location value="284.976898,793.683411,0.000000" />
+      <scale value="1.632679,1.632679" />
+      <skew value="-0.090757,0.000000" />
+      <rotation value="-90.000000" />
+    </transform>
+    <fillColor value="#00737373" />
+    <effect id="com.alightcreative.effects.textspacing" hidden="true" locallyApplied="false">
+      <property name="letterspacing" type="float" value="1.420000" />
+      <property name="linespacing" type="float" value="1.339000" />
+    </effect>
+    <path-stroke direction="centered" join="miter" end-size="1.500000">
+      <color value="#ffa79f9f" />
+      <size value="2.000000" />
+    </path-stroke>
+    <content>WANDET</content>
+  </text>
+  <text id="19" startTime="0" endTime="1999" fillType="color" size="18.000000" font="googlefonts?name=Archivo Black&amp;weight=400" wrapWidth="1126" align="center">
+    <transform>
+      <location value="441.953125,529.438782,0.000000" />
+      <scale value="1.700419,1.700419" />
+    </transform>
+    <fillColor value="#ff972828" />
+    <effect id="com.alightcreative.effects.textspacing" locallyApplied="false">
+      <property name="letterspacing" type="float" value="1.420000" />
+      <property name="linespacing" type="float" value="1.339000" />
+    </effect>
+  </text>
+  <shape id="22" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:2F4B37B56D5F14924452786ADBD530BA1A8CF123.png">
+    <transform>
+      <location value="111.263786,959.123413,0.000000" />
+      <scale value="0.135957,0.135957" />
+      <opacity value="0.844502" />
+    </transform>
+    <effect id="com.alightcreative.effects.invert" locallyApplied="false">
+      <property name="invertRed" type="bool" value="true" />
+      <property name="invertGreen" type="bool" value="true" />
+      <property name="invertBlue" type="bool" value="true" />
+    </effect>
+    <path d="M -540.0 -347.76L 540.0 -347.76L 540.0 347.76L -540.0 347.76L -540.0 -347.76Z" />
+  </shape>
+  <shape id="17" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:3966903939CB94988561B42FDE724A271BD56DBA.jpg">
+    <transform>
+      <location value="1003.538757,887.403809,0.000000" />
+      <scale value="0.220370,0.220370" />
+      <rotation value="90.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.brightcont2" locallyApplied="false">
+      <property name="brightness" type="float" value="-0.240000" />
+      <property name="contrast" type="float" value="0.000000" />
+    </effect>
+    <path d="M -540.0 -303.75L 540.0 -303.75L 540.0 303.75L -540.0 303.75L -540.0 -303.75Z" />
+  </shape>
+  <shape id="55" hidden="true" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:3966903939CB94988561B42FDE724A271BD56DBA.jpg">
+    <transform>
+      <location value="920.931335,950.232605,0.000000" />
+      <scale value="0.275926,0.275926" />
+    </transform>
+    <effect id="com.alightcreative.effects.brightcont2" locallyApplied="false">
+      <property name="brightness" type="float" value="-0.240000" />
+      <property name="contrast" type="float" value="0.000000" />
+    </effect>
+    <path d="M -540.0 -303.75L 540.0 -303.75L 540.0 303.75L -540.0 303.75L -540.0 -303.75Z" />
+  </shape>
+  <shape id="20" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:B6CA1157343B22D66FF59AC10E68A49B700ECD2C.png">
+    <transform>
+      <location value="86.790985,121.015068,0.000000" />
+      <scale value="0.090637,0.090637" />
+      <opacity value="0.834192" />
+    </transform>
+    <effect id="com.alightcreative.effects.brightcont2" locallyApplied="false">
+      <property name="brightness" type="float" value="-0.080000" />
+      <property name="contrast" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.satvib" locallyApplied="false">
+      <property name="saturation" type="float" value="-0.750000" />
+      <property name="vib" type="float" value="1.000000" />
+    </effect>
+    <path d="M -540.0 -342.9L 540.0 -342.9L 540.0 342.9L -540.0 342.9L -540.0 -342.9Z" />
+  </shape>
+  <shape id="58" startTime="0" endTime="1999" fillType="media" fillImage="am:716B611E55FDBE1705828E1ACC206BE738ABFEEC.png">
+    <transform>
+      <location value="1002.323425,596.372070,0.000000" />
+      <scale value="0.217461,0.217461" />
+      <rotation value="90.000000" />
+      <opacity value="0.819039" />
+    </transform>
+    <effect id="com.alightcreative.effects.invert" locallyApplied="false">
+      <property name="invertRed" type="bool" value="true" />
+      <property name="invertGreen" type="bool" value="true" />
+      <property name="invertBlue" type="bool" value="true" />
+    </effect>
+    <path d="M -540.0 -74.88281L 540.0 -74.88281L 540.0 74.88281L -540.0 74.88281L -540.0 -74.88281Z" />
+  </shape>
+  <shape id="4" label="长方形 1" startTime="0" endTime="1999" fillType="color" s=".rect">
+    <transform>
+      <location value="552.558167,748.255920,0.000000" />
+      <scale value="3.280198,3.280198" />
+    </transform>
+    <fillColor value="#ffaafdec" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="false">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.brightcont2" locallyApplied="false">
+      <property name="contrast" type="float" value="-0.160000" />
+      <property name="brightness" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="319.767395,272.674408" />
+  </shape>
+  <text id="23" label="POEBERT" startTime="0" endTime="1999" fillType="color" size="18.000000" font="googlefonts?name=Archivo Black&amp;weight=400" wrapWidth="540" align="center">
+    <transform>
+      <location value="105.696777,647.267517,0.000000" />
+      <scale value="1.351604,1.351604" />
+      <skew value="-0.289725,0.000000" />
+      <rotation value="-90.000000" />
+    </transform>
+    <fillColor value="#ffa63910" />
+    <content>POEBERT</content>
+  </text>
+  <embedScene id="35" label="编组和蒙版 2" startTime="0" endTime="1999" fillType="intrinsic" blending="screen">
+    <transform>
+      <location value="365.061310,505.302307,0.000000" />
+      <pivot value="-266.610168,-78.333496" />
+      <scale value="0.349707,0.349707" />
+      <opacity value="0.609694" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1082" height="1082" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1999" fps="30" modifiedTime="1592640188012" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="49" startTime="0" endTime="1999" fillType="media" fillImage="am:18647CBDF9F003728E632C274C9E2BDC37E31BCA.jpg">
+        <transform>
+          <location value="540.000000,540.000000,0.000000" />
+        </transform>
+        <path d="M -432.23053 -540.0L 432.23053 -540.0L 432.23053 540.0L -432.23053 540.0L -432.23053 -540.0Z" />
+      </shape>
+      <shape id="34" label="长方形 3" startTime="0" endTime="1999" fillType="color" blending="mask" s=".rect">
+        <transform>
+          <location value="273.389832,461.666504,0.000000" />
+        </transform>
+        <fillColor value="#ff9b48b9" />
+        <property name="size" type="vec2" value="100.000000,71.504868" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="54" label="编组和蒙版 2" startTime="0" endTime="1999" fillType="intrinsic" blending="screen">
+    <transform>
+      <location value="926.163879,248.767395,0.000000" />
+      <pivot value="-266.610168,-78.333496" />
+      <scale value="0.349707,0.349707" />
+      <opacity value="0.711017" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1082" height="1082" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="1999" fps="30" modifiedTime="1592640188014" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="57" startTime="0" endTime="1999" fillType="media" fillImage="am:18647CBDF9F003728E632C274C9E2BDC37E31BCA.jpg">
+        <transform>
+          <location value="540.000000,540.000000,0.000000" />
+        </transform>
+        <path d="M -432.23053 -540.0L 432.23053 -540.0L 432.23053 540.0L -432.23053 540.0L -432.23053 -540.0Z" />
+      </shape>
+      <shape id="56" label="长方形 3" startTime="0" endTime="1999" fillType="color" blending="mask" s=".rect">
+        <transform>
+          <location value="952.785217,251.976715,0.000000" />
+        </transform>
+        <fillColor value="#ff9b48b9" />
+        <property name="size" type="vec2" value="296.060089,63.641441" />
+      </shape>
+    </scene>
+  </embedScene>
+  <text id="52" label="Wandering boat" startTime="0" endTime="1999" fillType="color" size="18.000000" font="imported?name=N019086D.TTF" wrapWidth="1333" align="center">
+    <transform>
+      <location value="402.913177,96.475502,0.000000" />
+      <scale value="0.318830,0.318830" />
+    </transform>
+    <fillColor value="#ffa8a8a8" />
+    <content>Wandering boat</content>
+  </text>
+  <text id="53" label="20－6－20" startTime="0" endTime="1999" fillType="color" size="18.000000" font="imported?name=N019086D.TTF" wrapWidth="1333" align="center">
+    <transform>
+      <location value="643.682678,96.475502,0.000000" />
+      <scale value="0.318830,0.318830" />
+    </transform>
+    <fillColor value="#ffa8a8a8" />
+    <content>20－6－20</content>
+  </text>
+  <shape id="9" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:0FB99165E13B2A0961A61D4D71FCFB4D025E71DD.jpg">
+    <transform>
+      <location value="540.000000,540.000000,0.000000" />
+      <scale value="1.075926,1.075926" />
+      <opacity value="0.548969" />
+    </transform>
+    <path d="M -540.0 -509.22L 540.0 -509.22L 540.0 509.22L -540.0 509.22L -540.0 -509.22Z" />
+  </shape>
+  <shape id="7" startTime="0" endTime="1999" fillType="media" blending="screen" fillImage="am:489A23125673148914A599C30447FAEADCF10B58.jpg">
+    <transform>
+      <location value="548.371826,556.220947,0.000000" />
+      <scale value="1.201852,1.201852" />
+      <opacity value="0.849914" />
+    </transform>
+    <path d="M -540.0 -490.1087L 540.0 -490.1087L 540.0 490.1087L -540.0 490.1087L -540.0 -490.1087Z" />
+  </shape>
+</scene>
